@@ -39,7 +39,7 @@
 
 ## :octocat: Roadmap
 
-- Day 1: Acelerando sua evolução 12/10 - heavy_check_mark
+- Day 1: Acelerando sua evolução 12/10 - :heavy_check_mark:
 - Day 2: Olhando as oportunidades 13/10 - :construction:
 - Day 3: A escolha da Stack 14/10 - :construction:
 - Day 4: Até 2 anos em 2 meses 15/10 - :construction:
