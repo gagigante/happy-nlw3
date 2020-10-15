@@ -94,7 +94,7 @@ Finally start the server
 
   # or
 
-  $ npm dev
+  $ npm run dev
 ```
 
 ### Frontend
@@ -114,7 +114,7 @@ After that start the server
 
   # or
 
-  $ npm start
+  $ npm run start
 ```
 
 ## 🤔 How to contribute
