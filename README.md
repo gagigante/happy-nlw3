@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Twitch" title="#Twitch" src=".github/logo.svg" width="90px" />
+  <img alt="Happy" title="#Happy" src=".github/logo.svg" width="90px" />
 </h1>
 
 <h4 align="center">
@@ -26,7 +26,7 @@
     <a href="#label-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#🤔-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -40,7 +40,7 @@
 ## :octocat: Roadmap
 
 - Day 1: Acelerando sua evolução 12/10 - :heavy_check_mark:
-- Day 2: Olhando as oportunidades 13/10 - :construction:
+- Day 2: Olhando as oportunidades 13/10 - :heavy_check_mark:
 - Day 3: A escolha da Stack 14/10 - :construction:
 - Day 4: Até 2 anos em 2 meses 15/10 - :construction:
 - Day 5: Milha extra 16/10 - :construction:
@@ -63,25 +63,60 @@ Access project layout [here](https://www.notion.so/Layout-Happy-OmniStack-faac4d
 
 Happy is a project created to celebrate children's day. This application helps people to find orphanages to visit.
 
-## :runner: How to run :construction:
+## :runner: How to run
 
-<!-- Install dependencies
+<br/>
+
+### Backend
+
+Access `backend` folder and install the dependencies
 ```
   $ yarn
 
-  or
+  # or
 
   $ npm install
 ```
 
-Start server
+After that run the database migrations
+```
+  $ yarn typeorm migration:run
+
+  # or
+
+  $ npm typeorm migration:run
+```
+
+Finally start the server
+```
+  $ yarn dev
+
+  # or
+
+  $ npm dev
+```
+
+<br/>
+
+### Frontend
+
+Access `web` folder and install the dependencies
+```
+  $ yarn
+
+  # or
+
+  $ npm install
+```
+
+After that start the server
 ```
   $ yarn start
 
-  or
+  # or
 
   $ npm start
-``` -->
+```
 
 ## 🤔 How to contribute
 
