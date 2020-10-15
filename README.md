@@ -65,8 +65,6 @@ Happy is a project created to celebrate children's day. This application helps p
 
 ## :runner: How to run
 
-<br/>
-
 ### Backend
 
 #### API Reference: 
@@ -98,8 +96,6 @@ Finally start the server
 
   $ npm dev
 ```
-
-<br/>
 
 ### Frontend
 
