@@ -69,8 +69,6 @@ Happy is a project created to celebrate children's day. This application helps p
 
 ### Backend
 
-<br/>
-
 #### API Reference: 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW%203&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fgagigante%2Fhappy-nlw3%2Fmaster%2Fbackend%2Fdocs%2Fapi-reference.json)
 
