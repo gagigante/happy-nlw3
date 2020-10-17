@@ -34,7 +34,7 @@
 
 <p align="center">
  <img alt="Frontend" src=".github/frontend1.svg" width="700px">
-  <img alt="Frontend" src=".github/mobile.png">
+  <img alt="Frontend" src=".github/mobile.png" width="500px">
 </p>
 
 ## :octocat: Roadmap
