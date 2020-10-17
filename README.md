@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Happy :construction: In progress :construction:
+  Happy
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gagigante/happy-nlw3">
@@ -33,8 +33,8 @@
 <br>
 
 <p align="center">
- <img alt="Frontend" src=".github/frontend1.svg" width="600px">
-  <img alt="Frontend" src=".github/mobile.png" width="300px">
+ <img alt="Frontend" src=".github/frontend1.svg" width="400px">
+  <img alt="Frontend" src=".github/mobile.png" width="400px">
 </p>
 
 ## :octocat: Roadmap
