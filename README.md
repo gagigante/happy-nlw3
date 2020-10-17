@@ -147,6 +147,11 @@ After that edit the file `src/services/api.ts` with your current IP address:
   });
 ```
 
+After all start the app
+```
+  expo start
+```
+
 ## 🤔 How to contribute
 
 - Fork this repo;
