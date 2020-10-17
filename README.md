@@ -33,8 +33,8 @@
 <br>
 
 <p align="center">
- <img alt="Frontend" src=".github/frontend1.svg" width="500px">
-  <img alt="Frontend" src=".github/frontend2.svg" width="500px">
+ <img alt="Frontend" src=".github/frontend1.svg" width="600px">
+  <img alt="Frontend" src=".github/mobile.png" width="300px">
 </p>
 
 ## :octocat: Roadmap
@@ -42,8 +42,8 @@
 - Day 1: Acelerando sua evolução 12/10 - :heavy_check_mark:
 - Day 2: Olhando as oportunidades 13/10 - :heavy_check_mark:
 - Day 3: A escolha da Stack 14/10 - :heavy_check_mark:
-- Day 4: Até 2 anos em 2 meses 15/10 - :construction:
-- Day 5: Milha extra 16/10 - :construction:
+- Day 4: Até 2 anos em 2 meses 15/10 - :heavy_check_mark:
+- Day 5: Milha extra 16/10 - :heavy_check_mark:
 
 ## :rocket: Technologies
 
@@ -77,6 +77,18 @@ Access `backend` folder and install the dependencies
   # or
 
   $ npm install
+```
+
+And then edit the file `src/views/images_views` with your current IP address:
+```
+  // your ip is required to display photos on your mobile device
+
+  render(image: Image) {
+		return {
+			id: image.id,
+			url: `http://YOUR_CURRENT_IP_ADDRESS:3333/uploads/${image.path}`,
+		};
+	},
 ```
 
 After that run the database migrations
@@ -115,6 +127,24 @@ After that start the server
   # or
 
   $ npm run start
+```
+
+### Mobile
+
+Access `mobile` folder and install the dependencies
+```
+  $ yarn
+
+  # or
+
+  $ npm install
+```
+
+After that edit the file `src/services/api.ts` with your current IP address: 
+```
+  const api = axios.create({
+    baseURL: 'http://YOUR_CURRENT_IP_ADDRESS:3333',
+  });
 ```
 
 ## 🤔 How to contribute
