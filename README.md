@@ -33,8 +33,8 @@
 <br>
 
 <p align="center">
- <img alt="Frontend" src=".github/frontend1.svg" width="700px">
-  <img alt="Frontend" src=".github/mobile.png" width="500px">
+ <img alt="Frontend" src=".github/frontend1.svg">
+  <img alt="Frontend" src=".github/mobile.png" width="600px">
 </p>
 
 ## :octocat: Roadmap
